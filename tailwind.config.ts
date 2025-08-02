@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -61,6 +61,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// SibCHAT тематические цвета
+				'siberian': {
+					'snow': '#FFFFFF',
+					'ice': '#87CEEB',
+					'taiga': '#2F4F4F',
+					'aurora': '#FF8C00',
+					'frost': '#F0F8FF'
 				}
 			},
 			borderRadius: {
